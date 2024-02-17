@@ -16,6 +16,7 @@ if (!cached) {
 }
 
 export const connectToDatabase = async () => {
+
     if (cached.conn) return cached.conn;
 
     if (!MONGO_DB_URL) throw new Error('Missing MONGO DB URL');

@@ -13,7 +13,7 @@ const Sidebar = () => {
     <aside className='sidebar '>
       <div className="flex size-full flex-col gap-4">
         <Link href={'/'} className={"sidebar-logo"}>
-          <Image src="/assets/images/logo-text.svg"
+          <Image src="/assets/images/sashin-logo-text.svg"
             alt={"logo"}
             width={180}
             height={28} />
